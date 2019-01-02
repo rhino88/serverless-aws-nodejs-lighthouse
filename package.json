@@ -1,0 +1,28 @@
+{
+  "name": "serverless-aws-nodejs-lighthouse",
+  "version": "0.0.1",
+  "description": "Run Google Lighthouse from AWS Lambda",
+  "main": "handler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhino88/serverless-aws-nodejs-lighthouse"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "keywords": [
+    "lighthouse",
+    "lambda",
+    "serverless"
+  ],
+  "author": "Ryan Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "3.2.1"
+  },
+  "devDependencies": {
+    "prettier": "1.15.3",
+    "serverless": "1.35.1",
+    "serverless-plugin-chrome": "1.0.0-45"
+  }
+}

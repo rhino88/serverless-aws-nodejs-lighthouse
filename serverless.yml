@@ -1,0 +1,18 @@
+service: aws-nodejs-lighthouse
+
+frameworkVersion: "=1.35.1"
+
+plugins:
+  - serverless-plugin-chrome
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  timeout: 900
+  environment:
+    DEBUG: "*"
+    SLS_DEBUG: "*"
+
+functions:
+  lighthouse:
+    handler: handler.lighthouse

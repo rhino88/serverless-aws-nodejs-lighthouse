@@ -7,7 +7,7 @@ Allows you to run [Lighthouse](https://developers.google.com/web/tools/lighthous
 *  You are using node 8.10.0 (AWS Lambda does not support anything more recent at time of writing)
 * You have [yarn](https://yarnpkg.com/) installed
 * [serverless](https://serverless.com/framework/docs/getting-started/) version 1.35.1 installed.
-* AWS [credentials] configured(https://serverless.com/framework/docs/providers/aws/guide/credentials/).
+* AWS [credentials](https://serverless.com/framework/docs/providers/aws/guide/credentials/) configured.
 
 ## Getting Started
 

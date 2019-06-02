@@ -8,7 +8,7 @@
     "url": "https://github.com/rhino88/serverless-aws-nodejs-lighthouse"
   },
   "engines": {
-    "node": "8.10.0"
+    "node": "8.16.0"
   },
   "keywords": [
     "lighthouse",

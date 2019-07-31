@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "prettier": "1.18.2",
-    "serverless": "1.35.1",
+    "serverless": "1.49.0",
     "serverless-plugin-chrome": "1.0.0-45"
   }
 }
